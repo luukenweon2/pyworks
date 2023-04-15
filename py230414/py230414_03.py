@@ -9,7 +9,8 @@ class AP:
         print("비행기가 착륙합니다")
      
 AP1 = AP("대한항공")
-                 
-print("항공사는 ", AP1.brand, "입니다")
-AP1.takeoff()
-AP1.land()
+
+if __name__=="__name__":
+    print("항공사는 ", AP1.brand, "입니다")
+    AP1.takeoff()
+    AP1.land()
